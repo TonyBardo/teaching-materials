@@ -6,7 +6,7 @@ Welcome to my open repository of teaching resources for quantitative research me
 
 ## 🧭 Repository Overview
 
-This repo is organized into two main course directories:
+Here is a brief description with detailed summaries in following sections
 
 ### [`undergrad-quant/`](./undergrad-quant)
 Introductory course materials for **Undergraduate Quantitative Methods**, designed to help students:
@@ -14,28 +14,11 @@ Introductory course materials for **Undergraduate Quantitative Methods**, design
 - Learn statistical concepts and techniques from the ground up
 - Apply methods to real-world social data using guided examples
 
-📦 Contents include:
-- Lecture slides
-- Assignment prompts
-- Lab exercises
-- Datasets
-- Practice quizzes
-
----
-
 ### [`graduate-quant/`](./graduate-quant)
 Advanced content for **Graduate-Level Quantitative Methods**, with a focus on:
-- Statistical modeling (e.g., OLS, logistic regression, model diagnostics)
+- Statistical modeling (e.g., OLS, GLM, model diagnostics)
 - Applied research design and interpretation
 - Building reproducible workflows for data analysis
-
-📦 Contents include:
-- Syllabi and reading lists
-- Code-based assignments (R/Stata)
-- Seminar-style slide decks
-- Evaluation rubrics
-
----
 
 ## 🎯 Who This Is For
 
