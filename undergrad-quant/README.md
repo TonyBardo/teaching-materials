@@ -14,11 +14,11 @@ Welcome to the companion materials for an **undergraduate course in quantitative
 
 ## 🗂️ Table of Contents
 
-- 📄 [Syllabus](#-syllabus)
-- 🖥️ [PowerPoint Slides](#️-powerpoint-slides)
-- 📁 [Data + Code](#-data--code)
-- 📝 [Exercises](#-exercises)
-- 🧠 [What You'll Learn](#-what-youll-learn)
+- 📄 Syllabus
+- 🖥️ PowerPoint Slides
+- 📁 Data + Code
+- 📝 Exercises
+- 🧠 What You'll Learn
 
 ---
 
