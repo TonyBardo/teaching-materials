@@ -1,91 +1,83 @@
-# 📊 Undergraduate Quantitative Methods
+# 🎓 Introduction to Quantitative Methods (Undergraduate)
 
-Welcome to the companion materials for an **undergraduate course in quantitative research methods**, designed for social science students. This folder includes everything you need to follow the course—from syllabus and slides to data and exercises.
+Welcome to the companion repository for *Introduction to Quantitative Methods*, an undergraduate course that blends theory, measurement, and applied statistics using R. This course is organized around a semester-long consulting simulation with Netflix, giving students hands-on experience with real and synthetic survey data.
 
----
-
-## 📚 Course Overview
-
-> 🔍 **Focus:** Applied data analysis  
-> 🛠️ **Tools:** R, Excel, real-world survey data  
-> 🧠 **Skills:** Data wrangling, visualization, interpretation, modeling
+📁 **Course Folder**: [`undergrad-quant`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant)  
+👨‍🏫 **Instructor**: Tony Bardo  
+🎯 **Audience**: Undergraduate students (especially social sciences) and educators interested in adopting a critical and applied approach to teaching methods.
 
 ---
 
-## 🗂️ Table of Contents
+## 🔍 Course Overview
 
-- 📄 Syllabus
-- 🖥️ PowerPoint Slides
-- 📁 Data + Code
-- 📝 Exercises
-- 🧠 What You'll Learn
+> “Teaching quantitative methods without emphasizing perspective and theory would be like teaching you to drive with your eyes closed.”
 
----
+This course goes beyond formulas and software. Students will:
+- Investigate how problems are framed and measured in science
+- Build, test, and evaluate hypotheses from theory to application
+- Use **RStudio** to clean, explore, and model data
+- Simulate real-world work as consultants for **Netflix**
 
-## 📄 Syllabus
-
-Start by reviewing the full [syllabus (PDF)](https://github.com/TonyBardo/teaching-materials/blob/main/undergrad-quant/Syllabus-Quant-Undergrad.pdf), which is organized by topic and structured across a 15-week academic semester.
+Throughout the course, students critically explore how **perspective, theory, and measurement** shape how we understand and solve problems with data.
 
 ---
 
-## 🖥️ PowerPoint Slides
+## 🎓 For Prospective Students
 
-The [PPTs folder](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/PPTs) includes **numbered lecture decks** that align directly with each week’s syllabus topics.
+If you're considering this course, here's what you'll get:
 
-Each slide deck includes:
-- Conceptual explanations
-- Visual examples
-- Discussion questions
-- Applied walkthroughs
-
----
-
-## 📁 Data + Code
-
-Explore the [data folder](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/data) to download:
-- 🧮 GSS sample dataset
-- 📜 Annotated R scripts
-- 📊 Data visualizations from lectures
-
-Use these files to replicate class examples or build your own extensions.
+✅ **No prior R experience needed**  
+✅ **Learn by doing**, not memorizing equations  
+✅ **Team-based simulation** with a real-world feel  
+✅ **Build critical thinking** by connecting theory, measurement, and data  
+✅ **Finish with reproducible workflows** and a working knowledge of R
 
 ---
 
-## 📝 Exercises
+## 🧑‍🏫 For Educators
 
-Apply your skills using [in-class exercises](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/exercises) built around a **Netflix consulting scenario**, where you work to improve consumer recommendations.
+These materials are open for use, remixing, and adaptation. This course was built with:
+- A single master **R script** that students use to follow and replicate applied lecture content.
+- **GSS data** for general-purpose learning, and
+- A fully designed **Netflix simulation** including a student-designed Qualtrics survey, coding templates, and reproducible analysis.
 
-### 🧩 Eight Exercises:
-| # | Skill Developed | Related Slides |
-|--:|------------------|----------------|
-| 1 | Identify stakeholder needs | PPT 1 |
-| 2 | Operationalize concepts | PPT 2–4 |
-| 3 | Clean & prep data | PPT 5–6 |
-| 4 | Summarize data | PPT 5–6 |
-| 5 | Understand uncertainty | PPT 7–8 |
-| 6 | Assess data quality | PPT 9–10 |
-| 7 | Explore patterns | PPT 11 |
-| 8 | Build predictive model | PPT 12–14 |
+Each lecture and exercise is fully scaffolded with:
+- Clear learning objectives
+- Real-world relevance
+- Applied statistical programming
+- Alignment between theory and analysis
 
 ---
 
-## 🧠 What You'll Learn
+## 🔁 Suggested Sequence
 
-✅ Clean and prepare messy data  
-✅ Visualize patterns with clarity  
-✅ Work with real survey datasets  
-✅ Conduct regression modeling  
-✅ Communicate results to non-technical audiences
+| Week | Topics | Materials |
+|------|--------|-----------|
+| 1–2 | Theory, framing, and hypotheses | `PPT 1–4` |
+| 3–6 | Measurement, data cleaning, descriptive stats | `Exercises 1–4`, `PPT 5–6` |
+| 7–10 | Sampling, CLT, confidence intervals | `Exercises 5–6`, `PPT 7–10` |
+| 11–14 | Hypothesis testing & regression modeling | `Exercises 7–8`, `PPT 11–14` |
 
-This course bridges **academic foundations** and **real-world analytical thinking**, with a strong emphasis on problem-solving and stakeholder impact.
+You can also browse the full [syllabus outline here](#) _(optional: link to syllabus or include inline below)_.
 
 ---
 
-## 📢 Instructor
+## 🗂️ Repository Structure
 
-Created and taught by [Tony Bardo](https://github.com/TonyBardo), PhD  
-🔗 [View CV](https://github.com/TonyBardo/TonyBardo/blob/main/academic_cv.pdf)  
-🎓 [Explore Graduate Course](https://github.com/TonyBardo/teaching-materials/tree/main/graduate-quant)
+| Folder | Description |
+|--------|-------------|
+| [`/PPTs`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/PPTs) | Fourteen instructor-designed lectures covering theory, measurement, probability, and inference. Each slide deck builds toward applied data analysis. |
+| [`/data`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/data) | Contains the **General Social Survey (GSS)** example data, the **Netflix Qualtrics survey data**, an **augmented synthetic dataset**, and the **master R script** used across all PowerPoint examples. |
+| [`/exercises`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/exercises) | Eight applied in-class team-based exercises, each with supporting R scripts, handouts, and datasets. Exercises follow a consulting project storyline. |
+
+---
+
+## 📦 Getting Started
+
+1. **Clone or download** the repo:
+   ```bash
+   git clone https://github.com/TonyBardo/teaching-materials.git
+   cd teaching-materials/undergrad-quant
 
 ---
 
