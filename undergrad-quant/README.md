@@ -3,6 +3,7 @@
 Welcome to the companion repository for *Introduction to Quantitative Methods*, an undergraduate course that blends theory, measurement, and applied statistics using R. This course is organized around a semester-long consulting simulation with Netflix, giving students hands-on experience with real and synthetic survey data.
 
 📁 **Course Folder**: [`undergrad-quant`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant)  
+📄 **Course Syllabus**
 👨‍🏫 **Instructor**: Tony Bardo  
 🎯 **Audience**: Undergraduate students (especially social sciences) and educators interested in adopting a critical and applied approach to teaching methods.
 
