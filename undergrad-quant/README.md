@@ -56,6 +56,23 @@ Throughout the course, students critically explore how **perspective, theory, an
 
 <details>
   
+ <summary>📚 Want to take this course or fully engage, then:</summary>
+ 
+#### Follow along with the interactive syllabus
+ - Actively engage with the material in the PPTs
+    - Download the 💾[GSS dataset](./data/GSS.RData) used to generate applied lecture content  
+    - Replicate the applied lecture content using this master 📄[R script](./data/RScript_GSS.R)
+  
+  - Complete the  **Netflix simulation** exercises
+    - Supplemental 💾 datasets and 📄R scripts provided
+    - Accessible within interactive syllabus
+ 
+⚠️ Required software: **RStudio** [(download here if needed)](https://posit.co/download/rstudio-desktop/)
+
+</details>
+
+<details>
+  
   <summary><strong>📅 Click here to view the full interactive syllabus</strong></summary>
 
 ### Week 1 – Getting Critical with the Scientific Process
@@ -120,14 +137,6 @@ Throughout the course, students critically explore how **perspective, theory, an
 - **Day 27**: [PPT 14 – Multivariate Regression](./PPTs/PPT-14-Undergrad-Quant.pdf)
 - **Day 28**: [Exercise 8 – MLR with Augmented Netflix Data](./exercises/ex_8_instructions.pdf)  
   📄[R Script](./exercises/ex_8_RScript.R) 💾[R Dataset Augmented](./exercises/Netflix_1000.RData)
-
-</details>
-
-<details>
-  
-  👓 Want to fully interact with this course, then:
-
-  - ;lkasdf
 
 </details>
 
