@@ -68,6 +68,8 @@ Throughout the course, students critically explore how **perspective, theory, an
     - Accessible within interactive syllabus
  
 ⚠️ Required software: **RStudio** [(download here if needed)](https://posit.co/download/rstudio-desktop/)
+  - In case you need some help dowloading **RStudio** [click here](./data/RStudio_Help.pdf)
+    - The help document uses this  💾[practice dataset](./data/Class_Data_S2025.xlsx)
 
 </details>
 
