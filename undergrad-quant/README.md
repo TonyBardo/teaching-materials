@@ -1,9 +1,7 @@
 # 🎓 Introduction to Quantitative Methods (Undergraduate)
 
-Welcome to the companion repository for *Introduction to Quantitative Methods*, an undergraduate course that blends theory, measurement, and applied statistics using R. This course is organized around a semester-long consulting simulation with Netflix, giving students hands-on experience with real and synthetic survey data.
+Welcome to the companion repository for *Introduction to Quantitative Methods*, an undergraduate course that blends theory, measurement, and applied statistics using R. This course is organized around a semester-long consulting simulation, giving students hands-on experience with real and synthetic survey data.
 
-📁 **Course Folder**: [`undergrad-quant`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant)  
-👨‍🏫 **Instructor**: Tony Bardo  
 🎯 **Audience**: Undergraduate students (especially social sciences) and educators interested in adopting a critical and applied approach to teaching methods.
 
 ---
@@ -23,38 +21,46 @@ Throughout the course, students critically explore how **perspective, theory, an
 ---
 
 ## 🎓 For Prospective Students
-
-If you're considering this course, here's what you'll get:
+<details>
+<summary><strong>If you're considering this course, here's what you'll get:</strong></summary>
 
 ✅ **No prior R experience needed**  
 ✅ **Learn by doing**, not memorizing equations  
 ✅ **Team-based simulation** with a real-world feel  
 ✅ **Build critical thinking** by connecting theory, measurement, and data  
 ✅ **Finish with reproducible workflows** and a working knowledge of R
+</details>
 
 ---
 
 ## 🧑‍🏫 For Educators
+<details>
+<summary><strong>These materials are open for use, remixing, and adaptation. This course was built with:</strong></summary>
 
-These materials are open for use, remixing, and adaptation. This course was built with:
-- A single master **R script** that students use to follow and replicate applied lecture content.
-- **GSS data** for general-purpose learning, and
+- A single master 📄[R script](./data/RScript_GSS.R) that students use to follow and replicate applied lecture content.
+- A clean analyses-ready 💾[GSS dataset](./data/GSS.RData) for general-purpose learning, and
 - A fully designed **Netflix simulation** including a student-designed Qualtrics survey, coding templates, and reproducible analysis.
 
-Each lecture and exercise is fully scaffolded with:
+**Each lecture and exercise is fully scaffolded with:**
 - Clear learning objectives
 - Real-world relevance
 - Applied statistical programming
 - Alignment between theory and analysis
+</details>
 
 ---
 
+# ▶️ Getting Started
+
+👓 Just checking things out, then browse through the interactive syallabus
+
 <details>
+  
   <summary><strong>📅 Click here to view the full interactive syllabus</strong></summary>
 
 ### Week 1 – Getting Critical with the Scientific Process
 - **Day 1**: [PPT 1 – Scientific perspectives and theories](./PPTs/PPT-1-Undergrad-Quant.pdf)
-- **Day 2**: [PPT 2 – Hypotheses and conceptualization](./PPTs/PPT-2-Undergrad-Quant.pdf)
+- **Day 2**: [PPT 2 – Hypotheses and conceptualization](./PPTs/PPT-2-Undergrad_Quant.pdf)
 
 ### Week 2 – Scientific Process, Continued
 - **Day 3**: [PPT 3 – Operationalization](./PPTs/PPT-3-Undergrad-Quant.pdf)
@@ -74,9 +80,9 @@ Each lecture and exercise is fully scaffolded with:
 
 ### Week 6 – Descriptive Statistics: Application
 - **Day 11**: [Exercise 3 – Preparing Data](./exercises/ex_3_instructions.pdf)  
-  → [Original Qualtrics Survey](https://uky.az1.qualtrics.com/jfe/form/SV_bIx3tfhTD55tMI6)
+               → [Original Qualtrics Survey](https://uky.az1.qualtrics.com/jfe/form/SV_bIx3tfhTD55tMI6)
 - **Day 12**: [Exercise 4 – Summarizing Data](./exercises/ex_4_instructions.pdf)  
-  → [R Script](./exercises/ex_4_Rscript.R)
+  📄[R Script](./exercises/ex_4_Rscript.R) 💾[R Dataset](./exercises/netflix_survey.RData)
 
 ### Week 7 – Inferential Statistics: Abstract
 - **Day 13**: [PPT 7 – Probability](./PPTs/PPT-7-Undergrad-Quant.pdf)
@@ -85,7 +91,7 @@ Each lecture and exercise is fully scaffolded with:
 ### Week 8 – Abstraction Clarified
 - **Day 15**: [Exercise 5 – Sampling Prequel](./exercises/ex_5_preface.pdf)
 - **Day 16**: [Exercise 5 – Coin Flip Sampling](./exercises/ex_5_Instructions.pdf)  
-  → [R Script](./exercises/ex_5_Rscript.R)
+  📄[R Script](./exercises/ex_5_Rscript.R)
 
 ### Week 9 – Confidence Intervals
 - **Day 17**: [PPT 8 – Confidence Intervals Intro](./PPTs/PPT-8-Undergrad-Quant.pdf)
@@ -94,16 +100,16 @@ Each lecture and exercise is fully scaffolded with:
 ### Week 10 – Hypothesis Testing
 - **Day 19**: [PPT 10 – Hypothesis Testing](./PPTs/PPT-10-Undergrad-Quant.pdf)
 - **Day 20**: [Exercise 6 – Sample Quality Assessment](./exercises/ex_6_instructions.pdf)  
-  → [R Script](./exercises/ex_6_Rscript.R)
+  📄[R Script](./exercises/ex_6_Rscript.R)
 
 ### Week 11 – CIs & Hypothesis Testing: Real-World App
 - **Day 21**: [PPT 11 Instructions – Competing Firm Analysis](./PPTs/PPT-11-instructions.pdf)  
-  → [R Script](./PPTs/PPT-11-Rscript.R)
+  📄[R Script](./PPTs/PPT-11-Rscript.R)
 - **Day 22**: [PPT 11 – Univariate vs Bivariate](./PPTs/PPT-11-Undergrad_Quant.pdf)
 
 ### Week 12 – Inferential Stats: Bivariate
 - **Day 23**: [Exercise 7 – Exploratory Analysis](./exercises/ex_7_instructions.pdf)  
-  → [R Script](./exercises/ex_7_Rscript.R)
+  📄[R Script](./exercises/ex_7_Rscript.R) 💾[R Dataset](./exercises/netflix_survey.RData)
 - **Day 24**: [PPT 12 – ANOVA and Pearson’s r](./PPTs/PPT-12-Undergrad-Quant.pdf)
 
 ### Week 13 – Simple Linear Regression
@@ -113,22 +119,21 @@ Each lecture and exercise is fully scaffolded with:
 ### Week 14 – Multivariate Regression: Application
 - **Day 27**: [PPT 14 – Multivariate Regression](./PPTs/PPT-14-Undergrad-Quant.pdf)
 - **Day 28**: [Exercise 8 – MLR with Augmented Netflix Data](./exercises/ex_8_instructions.pdf)  
-  → [R Script](./exercises/ex_8_Rscript.R)
+  📄[R Script](./exercises/ex_8_RScript.R) 💾[R Dataset Augmented](./exercises/Netflix_1000.RData)
+
+</details>
+
+<details>
+  
+  👓 Want to fully interact with this course, then:
+
+  - ;lkasdf
 
 </details>
 
 ---
 
-## 🔁 Suggested Sequence
-
-| Week | Topics | Materials |
-|------|--------|-----------|
-| 1–2 | Theory, framing, and hypotheses | `PPT 1–4` |
-| 3–6 | Measurement, data cleaning, descriptive stats | `Exercises 1–4`, `PPT 5–6` |
-| 7–10 | Sampling, CLT, confidence intervals | `Exercises 5–6`, `PPT 7–10` |
-| 11–14 | Hypothesis testing & regression modeling | `Exercises 7–8`, `PPT 11–14` |
-
-You can also browse the full [syllabus outline here](#) _(optional: link to syllabus or include inline below)_.
+You can also browse the full [syllabus outline here](./Syllabus-Quant-Undergrad.pdf).
 
 ---
 
@@ -142,7 +147,7 @@ You can also browse the full [syllabus outline here](#) _(optional: link to syll
 
 ---
 
-## 📦 Getting Started
+## 📦 
 
 1. **Clone or download** the repo:
    ```bash
