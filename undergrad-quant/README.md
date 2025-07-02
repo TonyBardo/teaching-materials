@@ -118,7 +118,7 @@ Students write, execute, and modify R code for each stage-building confidence, c
 
 # ▶️ Getting Started
 
-👓 Just checking things out, then browse through the interactive syallabus
+👓 Just checking things out, then browse through the interactive syllabus
 
 <details>
   
@@ -139,9 +139,11 @@ Students write, execute, and modify R code for each stage-building confidence, c
 
 </details>
 
+---
+
 <details>
   
-  <summary><strong>📅 Click here to view the full interactive syllabus</strong></summary>
+  <summary><strong>📅 Interactive Syllabus</strong></summary>
 
 ### Week 1 – Getting Critical with the Scientific Process
 - **Day 1**: [PPT 1 – Scientific perspectives and theories](./PPTs/PPT-1-Undergrad-Quant.pdf)
@@ -207,8 +209,6 @@ Students write, execute, and modify R code for each stage-building confidence, c
   📄[R Script](./exercises/ex_8_RScript.R) 💾[R Dataset Augmented](./exercises/Netflix_1000.RData)
 
 </details>
-
-You can also browse the full [syllabus outline here](./Syllabus-Quant-Undergrad.pdf)
 
 ---
 
