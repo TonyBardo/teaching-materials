@@ -1,7 +1,12 @@
 # 🎓 Graduate Quantitative Methods
-Welcome to the companion repository for Graduate Quantitative Methods, a course designed for students with a solid foundation in statistics and data management. This course focuses on advanced modeling techniques, applied learning using real-world data, and rigorous independent projects using the General Social Survey (GSS) and self-selected datasets.
 
-🎯 Audience: Graduate students in sociology, public health, political science, and other social sciences; educators designing advanced quantitative courses.
+Welcome to the companion repository for Graduate Quantitative Methods, a project-based course where theory meets application. This course is designed for students ready to move beyond basic stats and explore advanced modeling with real-world social survey data. Through structured lectures, hands-on coding in Stata, and scaffolded assignments, students will build the skills necessary to conduct original research, produce journal-quality tables, and present professional-level findings.
+
+### 🎯 Who Should Use This Repo
+
+**Graduate students** in sociology, public health, political science, and other social sciences — particularly those planning to publish or present quantitative research.
+
+**Educators** teaching applied quantitative methods, especially those incorporating generalized linear models (GLMs), survey data, or reproducible workflows.
 
 ---
 
@@ -12,7 +17,22 @@ This course helps students move beyond descriptive and linear methods, developin
 - Heavy emphasis on postestimation and visual interpretation
 - Scaffolded assignments build toward an independent final project
 - All examples use real data from the GSS dataset
-- Instructional materials fully reproducible using the provided .do file
+- Instructional materials fully reproducible using a provided Stata .do file
+
+<details>
+
+<summary><strong>Students are not passive learners in this course</strong></summary>
+
+<br>
+
+Students begin by selecting a topic of interest and identifying a publicly available survey dataset (e.g., from [ICPSR](https://www.icpsr.umich.edu/web/pages/ICPSR/index.html)). Throughout the course:
+
+1. **Assignments scaffold learning**: Starting with data cleaning and descriptive statistics, students build up to linear regression, then to logit, probit, and count models.
+2. **Theory guides modeling**: Each assignment requires explicit theorizing, hypothesis development, and applied interpretation.
+3. **Reproducible workflows**: All course examples are demonstrated using a master Stata .do file and a cleaned GSS dataset.
+4. **The final paper synthesizes everything**: Students write a journal-style article and present it in class following a conference-style format.
+
+</details>
 
 ---
 
@@ -31,7 +51,7 @@ This course is designed for graduate students who have a solid foundation in sta
 ## 🧑‍🏫 For Educators
 
 
-This course provides a structured, modular approach to teaching graduate-level quantitative methods with real-world datasets and reproducible workflows in **Stata**. It is suitable for:
+This course provides a structured, modular approach to teaching graduate-level quantitative methods with real-world datasets and reproducible workflows in Stata. It is suitable for:
 
 - Instructors teaching applied quantitative methods with a GLM emphasis
 - Institutions with a need for reproducible research training and secondary data analysis
@@ -40,6 +60,8 @@ This course provides a structured, modular approach to teaching graduate-level q
 <details>
 
 <summary><strong>🧪 Tools & Skills Taught</strong></summary>
+
+<br>
 
 - Data preparation and recoding in Stata
 - OLS diagnostics (linearity, multicollinearity, homoscedasticity)
@@ -55,10 +77,12 @@ This course provides a structured, modular approach to teaching graduate-level q
   
 <summary><strong>🧩 Modular & Adaptable</strong></summary>
 
+<br>
+
 Each assignment builds on prior skills, allowing instructors to adapt the pace or depth. For example:
 
-- Replace the GSS with your department’s preferred dataset
-- Substitute the Stata `.do` file with R or Python equivalents
+- Replace the GSS with your preferred dataset
+- Substitute the Stata `.do` file with SPSS, SAS, R or Python equivalents
 - Adjust readings or replace PPTs with custom lectures
 
 </details>
@@ -66,6 +90,8 @@ Each assignment builds on prior skills, allowing instructors to adapt the pace o
 <details>
 
 <summary><strong>📦 What’s Included</strong></summary>
+
+<br>
 
 - ✅ 11 Lecture PPTs covering OLS, GLM, postestimation, and SEM
 - ✅ Scaffolded assignments culminating in a journal-style final paper
@@ -77,7 +103,7 @@ Each assignment builds on prior skills, allowing instructors to adapt the pace o
 
 ---
 
-# ▶️ Getting Started 
+## ▶️ Getting Started 
 
 👓 Just checking things out, then browse through the interactive syllabus
 
@@ -112,6 +138,8 @@ Each assignment builds on prior skills, allowing instructors to adapt the pace o
   
 <summary>Review the assignments to gauge course expectations</summary>
 
+<br>
+
 | Assignment | Description |
 |-----------|-------------|
 | [Assignment 1](https://github.com/TonyBardo/teaching-materials/blob/main/graduate-quant/assignments/assignment_1.pdf) | Topic selection, data identification, cleaning, descriptive stats |
@@ -127,6 +155,8 @@ Each assignment builds on prior skills, allowing instructors to adapt the pace o
 <details>
   
 <summary>Consider reading along with the assigned texts</summary>
+
+<br>
 
 While the course is fully accessible using the PPTs and the master Stata .do file, these texts are highly recommended:
 
@@ -144,7 +174,9 @@ This ZIP file contains a **Stata `.dta` dataset** used in our graduate-level qua
 
 🔗 [Download GSS7218.zip](https://github.com/TonyBardo/teaching-materials/raw/main/graduate-quant/data/GSS7218.zip)
 
-🧾 Contents: `GSS7218.dta`: A cleaned version of the General Social Survey (GSS) dataset covering years 1972–2018.
+🧾 Contents: `GSS7218.dta`: A cleaned version of the General Social Survey (GSS) dataset covering years 1972–2018. 
+
+<br>
 
 🛠️ **Instructions to Download and Unzip**
 
@@ -160,10 +192,31 @@ This ZIP file contains a **Stata `.dta` dataset** used in our graduate-level qua
 
 </details>
 
-Actively engage with the material in the PPTs
+<details>
+
+<summary>Actively engage with the material in the PPTs</summary>
+
+<br>
 
 - Replicate the applied lecture content using this master 📄[Stata .do file](https://github.com/TonyBardo/teaching-materials/blob/main/graduate-quant/data/master.do)
 
-Complete the assignments, presentation, and final paper
+</details>
 
-- If you need help finding data to use for this consider checking [here](https://www.icpsr.umich.edu/web/pages/ICPSR/index.html) 
+<details>
+
+<summary>Complete the assignments, presentation, and final paper</summary>
+
+<br>
+
+- If you need help finding data to use for asignments, then consider checking [here](https://www.icpsr.umich.edu/web/pages/ICPSR/index.html)
+
+</details>
+
+---
+## 🗂️ Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| [`/PPTs`](https://github.com/TonyBardo/teaching-materials/tree/main/graduate-quant/PPTs) | Eleven instructor-designed slide decks integrating theory, model-building, and postestimation using applied Stata examples from the GSS. |
+| [`/assignments`](https://github.com/TonyBardo/teaching-materials/tree/main/graduate-quant/assignments) | Scaffolded assignment prompts and grading criteria that guide students through topic selection, GLM modeling, and journal-style writing. Includes the final paper and presentation instructions. |
+| [`/data`](https://github.com/TonyBardo/teaching-materials/tree/main/graduate-quant/data) | Contains the cleaned **General Social Survey (GSS)** dataset (`GSS7218.dta`) and the corresponding **Stata master `.do` file** used to replicate all examples in the lecture slides. |
