@@ -1,23 +1,41 @@
 # 🎓 Graduate Quantitative Methods
 Welcome to the companion repository for Graduate Quantitative Methods, a course designed for students with a solid foundation in statistics and data management. This course focuses on advanced modeling techniques, applied learning using real-world data, and rigorous independent projects using the General Social Survey (GSS) and self-selected datasets.
 
-🎯 Audience: Graduate students in sociology, public health, political science, and other social sciences; educators designing advanced quantitative courses.## 📥 How to Download and Unzip the GSS Dataset
+🎯 Audience: Graduate students in sociology, public health, political science, and other social sciences; educators designing advanced quantitative courses.
 
 ---
 
 ## 🔍 Course Overview
 This course helps students move beyond descriptive and linear methods, developing mastery over a range of generalized linear models (GLM). Each PowerPoint integrates theory, technical skill, and applied Stata-based examples from the GSS. Students apply this knowledge through a scaffolded sequence of assignments using their own data.
 
-### Students will:
-Refine their understanding of OLS regression and key assumptions
+- Focus on generalized linear models (GLMs)
+- Heavy emphasis on postestimation and visual interpretation
+- Scaffolded assignments build toward an independent final project
+- All examples use real data from the GSS dataset
+- Instructional materials fully reproducible using the provided .do file
 
-Learn binary, ordinal, multinomial, and count models using GLM
+---
 
-Master postestimation tools such as predicted probabilities, marginal effects, and visualization
+## 🎓 For Students
+place holder
 
-Explore the logic and applications of moderation and mediation
+--
+## 🧑‍🏫 For Educators
 
-Briefly engage with SEM, factor analysis, and latent class modeling
+--
+
+# ▶️ Getting Started 
+
+👓 Just checking things out, then browse through the interactive syllabus
+
+📚 Want to take this course or fully engage, then:
+
+--
+<details>
+  
+  <summary><strong>📅 Interactive Syllabus</strong></summary>
+
+  
 
 This ZIP file contains a **Stata `.dta` dataset** used in our graduate-level quantitative methods course.
 
