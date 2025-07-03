@@ -17,12 +17,67 @@ This course helps students move beyond descriptive and linear methods, developin
 ---
 
 ## 🎓 For Students
-place holder
 
---
+This course is designed for graduate students who have a solid foundation in statistical reasoning and prior exposure to linear regression. By the end of the course, you will be able to:
+
+- ✅ Independently locate, clean, and analyze secondary data
+- ✅ Apply mediation and moderation techniques using OLS
+- ✅ Build and interpret generalized linear models (GLMs), including logit, probit, ologit, oprobit, multinomial logit, and count models
+- ✅ Conduct and visualize postestimation analyses such as marginal effects and predicted probabilities
+- ✅ Prepare publication-ready tables and figures using Stata
+- ✅ Write a journal-style manuscript that integrates theory, methods, and results
+- ✅ Present your findings in a professional, conference-style presentation
+
+---
+
 ## 🧑‍🏫 For Educators
 
---
+
+This course provides a structured, modular approach to teaching graduate-level quantitative methods with real-world datasets and reproducible workflows in **Stata**. It is suitable for:
+
+- Instructors teaching applied quantitative methods with a GLM emphasis
+- Institutions with a need for reproducible research training and secondary data analysis
+- Sociology, Public Health, Psychology, and Policy students
+
+<details>
+
+<summary><strong>🧪 Tools & Skills Taught</strong></summary>
+
+- Data preparation and recoding in Stata
+- OLS diagnostics (linearity, multicollinearity, homoscedasticity)
+- Generalized Linear Models (Logit, Probit, Ordered Logit, Mlogit, Poisson, NB)
+- Postestimation: odds ratios, marginal effects (AME, MEM, MER), predicted probabilities
+- Mediation and moderation frameworks
+- SEM concepts (introductory level)
+- Academic writing and scientific communication
+
+</details>
+
+<details>
+  
+<summary><strong>🧩 Modular & Adaptable</strong></summary>
+
+Each assignment builds on prior skills, allowing instructors to adapt the pace or depth. For example:
+
+- Replace the GSS with your department’s preferred dataset
+- Substitute the Stata `.do` file with R or Python equivalents
+- Adjust readings or replace PPTs with custom lectures
+
+</details>
+
+<details>
+
+<summary><strong>📦 What’s Included</strong></summary>
+
+- ✅ 11 Lecture PPTs covering OLS, GLM, postestimation, and SEM
+- ✅ Scaffolded assignments culminating in a journal-style final paper
+- ✅ GSS dataset and corresponding Stata `.do` file used in lectures
+- ✅ Presentation and paper rubrics for evaluation
+- ✅ A flexible syllabus that can be adapted to quarter or semester formats
+
+</details>
+
+---
 
 # ▶️ Getting Started 
 
@@ -57,7 +112,7 @@ place holder
 
 <details>
   
-<summary>Review summary of assignments to gauge course expectations</summary>
+<summary>Review the assignments to gauge course expectations</summary>
 
 | Assignment | Description |
 |-----------|-------------|
@@ -83,19 +138,17 @@ While the course is fully accessible using the PPTs and the master Stata .do fil
 
 </details>
 
----
+<details>
 
-## 💾 Download and Use the Data
+<summary>Download the data used for applied examples in the PPTs</summary> <br>
 
 This ZIP file contains a **Stata `.dta` dataset** used in our graduate-level quantitative methods course.
 
 🔗 [Download GSS7218.zip](https://github.com/TonyBardo/teaching-materials/raw/main/graduate-quant/data/GSS7218.zip)
 
-🧾 **Contents**: `GSS7218.dta`: A cleaned version of the General Social Survey (GSS) dataset covering years 1972–2018.
+🧾 Contents: `GSS7218.dta`: A cleaned version of the General Social Survey (GSS) dataset covering years 1972–2018.
 
-<details>
-  
-  <summary><strong>🛠️ Instructions to Download and Unzip</strong></summary>
+🛠️ **Instructions to Download and Unzip**
 
 #### 🪟 Windows
 1. Click the link above or **right-click → "Save link as…"** to download the ZIP file.
@@ -108,3 +161,11 @@ This ZIP file contains a **Stata `.dta` dataset** used in our graduate-level qua
 3. You will see the `.dta` file inside.
 
 </details>
+
+Actively engage with the material in the PPTs
+
+- Replicate the applied lecture content using this master 📄[Stata .do file](https://github.com/TonyBardo/teaching-materials/blob/main/graduate-quant/data/master.do)
+
+Complete the assignments, presentation, and final paper
+
+- If you need help finding data to use for this consider checking [here](https://www.icpsr.umich.edu/web/pages/ICPSR/index.html) 
