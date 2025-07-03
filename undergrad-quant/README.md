@@ -221,14 +221,3 @@ Students write, execute, and modify R code for each stage-building confidence, c
 | [`/exercises`](https://github.com/TonyBardo/teaching-materials/tree/main/undergrad-quant/exercises) | Eight applied in-class team-based exercises, each with supporting R scripts, handouts, and datasets. Exercises follow a consulting project storyline. |
 
 ---
-
-## 📦 
-
-1. **Clone or download** the repo:
-   ```bash
-   git clone https://github.com/TonyBardo/teaching-materials.git
-   cd teaching-materials/undergrad-quant
-
----
-
-⭐ *If you find this useful, feel free to star the repo and share with colleagues or students!*
