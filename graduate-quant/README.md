@@ -20,13 +20,11 @@ This course helps students move beyond descriptive and linear methods, developin
 
 This course is designed for graduate students who have a solid foundation in statistical reasoning and prior exposure to linear regression. By the end of the course, you will be able to:
 
-- ✅ Independently locate, clean, and analyze secondary data
 - ✅ Apply mediation and moderation techniques using OLS
 - ✅ Build and interpret generalized linear models (GLMs), including logit, probit, ologit, oprobit, multinomial logit, and count models
 - ✅ Conduct and visualize postestimation analyses such as marginal effects and predicted probabilities
 - ✅ Prepare publication-ready tables and figures using Stata
 - ✅ Write a journal-style manuscript that integrates theory, methods, and results
-- ✅ Present your findings in a professional, conference-style presentation
 
 ---
 
