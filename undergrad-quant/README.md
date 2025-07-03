@@ -1,4 +1,4 @@
-# 🎓 Introduction to Quantitative Methods (Undergraduate)
+# 🎓 Undergraduate Quantitative Methods
 
 Welcome to the companion repository for *Introduction to Quantitative Methods*, an undergraduate course that blends theory, measurement, and applied statistics using R. This course is organized around a semester-long consulting simulation, giving students hands-on experience with real and synthetic survey data.
 
