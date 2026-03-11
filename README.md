@@ -27,7 +27,7 @@ Ideal for instructors or students new to quantitative analysis who want a **crit
 
 ## 📚 Graduate Quantitative Methods (`graduate-quant`)
 
-An advanced, GLM-focused course designed for students with existing statistical background. Highlights:
+An advanced, GLM-focused course designed for students with existing statistical background.
 
 - OLS diagnostics and theory-based modeling
 - Logit, probit, ordered logit/probit, multinomial logit, Poisson, and negative binomial models
@@ -87,4 +87,3 @@ Feedback or suggestions? Use the Issues tab or open a pull request.
 
 Thanks for visiting — and happy learning!  
 ✏️ *Tony Bardo*  
-[View My Academic CV](https://github.com/TonyBardo/TonyBardo/blob/main/academic_cv.pdf)
